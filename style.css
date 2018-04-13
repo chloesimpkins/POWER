@@ -112,7 +112,11 @@ header a {
 }
 
 figure {
-  padding: 3em
+  padding: 2em
+}
+
+iframe {
+  padding: 1em
 }
 
 /* Styles for header sections to apply background images or colour. */
@@ -132,11 +136,6 @@ figure {
   display: flex;
 }
 
-.info {
-  width: 40%;
-  height: 40%;
-  text-align: center;
-}
 
 .my_green {
   /* this sets the background colour of the coloured header. */
