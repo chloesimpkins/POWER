@@ -28,16 +28,24 @@ img {
 /* Set the default style of the figure element */
 
 figure {
-  margin: 0;
+  padding-left: 5em;
+  padding-right: 5em;
+  padding top: 2em;
+  padding-bottom: 2em;
 }
 
 figure img {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.7);
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 figcaption {
   font-size: 14px;
   color: #555;
+  padding-top: 1em
 }
 
 /* Default style of the blockquote element
@@ -46,7 +54,7 @@ figcaption {
 blockquote {
   width: 66%;
   margin: 1em auto;
-  background: #ddd;
+  background: #fff;
   padding: 1em;
   font-size: 1.25em;
   text-align: center;
@@ -81,6 +89,7 @@ footer {
   /* this sets the height of each
   full width image section to that of the viewport.*/
   height: 100vh;
+  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -111,14 +120,17 @@ header a {
   color: white;
 }
 
-figure {
-  padding: 2em
+
+.video {
+  padding: 1em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-iframe {
-  padding: 1em
+.center {
+  text-align: center;
 }
-
 /* Styles for header sections to apply background images or colour. */
 
 .pier {
